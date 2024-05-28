@@ -1,0 +1,58 @@
+<html>
+<head>
+
+    <title>Order Section</title>
+    <link href="COOKIES ORDER.css" rel="stylesheet"/>
+    <script src="COOKIES ORDER.js" defer></script>
+
+</head>
+
+<body>
+
+    <header class="head">
+        <a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA.HTML"><img src="img/homepage.png" alt="Home"></a>
+    </header>
+
+        <div id="container">
+            <div class="row">
+                <div class="left">
+                    <h2>MATCHA TIRAMISU</h2>
+                    <h1>CUSTOMER'S INFORMATION</h1>
+                    <form id="customer-info-form">
+                        <p>Customer Name: <input type="text" id="customer-name" name="customer-name" required></p>
+                        <p>Phone Number: <input type="tel" id="phone-number" name="phone-number" required></p>
+                        <p>Email: <input type="email" id="email" name="email" required></p>
+                        <p>Address: <input type="text" id="address" name="address" required></p>
+                        <button type="submit" class="one">Submit Customer Info</button>
+                    </form>
+                    <div id="customer-info-display"></div>
+                </div>
+                
+                <div class="right">
+                    <img src="img/MATCHA LOGO2.png" alt="Matcha Logo">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="lower">
+                    <h1>ORDER INFORMATION</h1>
+                    <form id="order-info-form">
+                        <p>Order #: <input type="text" id="order-number" name="order-number" required></p>
+                        <p>Order Date: <input type="date" id="order-date" name="order-date" required></p>
+                        <p>Payment Method:</p>
+                        <p><input type="radio" id="gcash" name="payment-method" value="Gcash" required> <label for="gcash">Gcash</label></p>
+                        <p><input type="radio" id="bank-transfer" name="payment-method" value="Bank Transfer" required> <label for="bank-transfer">Bank Transfer</label></p>
+                        <p><input type="radio" id="cod" name="payment-method" value="Cash on Delivery" required> <label for="cod">Cash on Delivery</label></p>
+                        <button type="submit" class="one">Submit Order Info</button>
+                    </form>
+                    <div id="order-info-display"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20LIST.html" class="one">Click Here to Add More</a>
+        </div>
+
+</body>
+</html>

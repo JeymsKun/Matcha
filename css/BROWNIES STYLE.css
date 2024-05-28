@@ -1,0 +1,116 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-family: "Century Gothic", sans-serif;
+	margin: 0;
+}
+
+.headerpicture {
+  width: 100%;
+  height: 400px; /* Set the desired height for the cropped image */
+  background-image: url('img/MATCHA BROWNIES.png');
+  background-size: cover; /* Crop the image to cover the entire container */
+  background-position: center; /* Center the image within the container */
+}
+
+row {
+	display: flex;
+	width: 100%;
+}
+
+.title {
+	font-size: 80px;
+	text-transform: uppercase;
+	text-align: center;
+  margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.table {
+	width: 80%;
+	margin: 20px 0px 60px 60px;
+	border-radius: 0px;
+}	
+
+table, tr, th, td {
+	border-collapse: collapse;
+	margin: 20px 0px 20px;
+	overflow: hidden;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1),
+.table th:nth-child(2),
+.table td:nth-child(2),
+.table th:nth-child(3),
+.table td:nth-child(3) {
+  border-right: 1px solid black; 
+}
+
+.table th,
+.table td {
+  text-align: center;
+}
+
+.LEFT, .RIGHT {
+	width: 50%;
+}
+
+.LEFT{
+  margin: 0px 70px 0px 0px;
+  background-color: #C4E79A;
+}
+
+.INGREDIENTS{
+    width: 100%;
+    margin: 40px 0px 0px 73px;
+}
+
+.LISTTABLE {
+  margin: 30px 0px 100px 70px;
+  font-size: 18px;
+  line-height: 2;
+  border-radius: 15px; 
+}
+
+.LISTTABLE th,
+.LISTTABLE td {
+  padding: 10px; 
+  text-align: center; 
+}
+
+.LISTTABLE th:nth-child(1),
+.LISTTABLE td:nth-child(1),
+.LISTTABLE th:nth-child(2),
+.LISTTABLE td:nth-child(2) {
+  width: 50%;
+}
+
+.LISTTABLE td{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.LISTTABLE th {
+  background-color: white;
+  border-bottom: 3px solid green;
+}
+
+.RIGHT{
+  margin: 92px 70px 100px 40px;
+}
+
+.SUBTITLE{
+  margin-bottom: 35px;
+}
+
+.INSTRUCTIONS {
+	  line-height: 2.5;
+    font-size: 17px;
+}

@@ -1,0 +1,149 @@
+<html> 
+<head>
+
+	<link href = "MATCHA STYLE.css" rel ="stylesheet"/>
+
+</head>
+
+<body>
+		<header>
+			<row>
+					<nav>	
+						<ul class="main-menu">
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT US</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</nav>
+			</row>
+		</header>
+
+	<div id="firstlayer">
+	
+	<row>
+		<h3 class="firstleft"> LET'S MAKE SOME </h3>
+
+		<div class="firstright">
+				<img src="img/MATCHA LOGO2.png" />
+		</div>
+	</row>
+
+	</div>
+
+	<div id="secondlayer">
+	
+	<row>
+		<h3 class="secondcenter"> BEST JAPANESE MATCHA RECIPES: </h3>
+	
+		<div class="secondimage">
+
+				<img src="img/BRANCH.png" />
+		</div>
+	</row>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+	integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<title>Image Slider</title>
+	<div class="container">
+
+		<div class="slide">
+
+			<div class="item" style="background-image: url(img/MATCHA\ BROWNIES.png);">
+				<div class="content">
+					<div class="name"><a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20BROWNIES.html">Matcha Brownies</a></div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img/MATCHA\ TIRAMISU.jpg);">
+				<div class="content">
+					<div class="name"><a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20TIRAMISU.html">Matcha Tiramisu</a></div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img/MATCHA\ GREEN\ TEA\ ICE\ CREAM.png);">
+				<div class="content">
+					<div class="name"><a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20GREEN%20TEA%20ICE%20CREAM.html">Matcha Green Tea Ice Cream</a></div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img/MATCHA\ CREAM\ CHEESE\ POUND\ CAKE.jpg);">
+				<div class="content">
+					<div class="name"><a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20CAKE.html">Matcha Cream Cheese Pound Cake</a></div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img/MATCHA\ COOKIES.jpg);">
+				<div class="content">
+					<div class="name"><a href="file:///D:/Web%20Systems%20and%20Technologies/MATCHA%20COOKIES.html">Matcha Cookies</a></div>
+				</div>
+			</div>
+		</div>
+			<div class="button">
+				<button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+				<button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+			</div>
+		<script src="website.js"></script>
+		</div>
+	</div>
+
+	<div id="thirdlayer">
+	
+		<row>
+			<div class="thirdright">
+				<img src="img/TRIVIA 2.png" />
+			</div>
+		</row>
+
+		<row>
+			<div class="thirdleft">
+				<p align="justify"> <b>Matcha</b> boasts a high level of antioxidants, notably EGCg (epigallocatechin gallate), which is known for its cancer-fighting properties. Gram for gram, matcha contains several times more antioxidants than other superfoods like goji berries or blueberries.</p>
+			</div>
+		</row>
+	</div>
+
+	<div id="fourthlayer">
+	
+		<row>
+			<h1 class="quotation"> "Matcha: Where health and happiness blend in perfect harmony." </h1>
+		</row>
+	</div>
+
+	<div id="fifthlayer">
+	<last>
+		<row>
+			<logo1>
+				<a href="https://www.facebook.com/sheshe.bro" target="_blank">
+					<img src="img/FB.png" />
+				</a>
+			</logo1>
+
+
+			<logo2>
+				<a href="https://www.instagram.com/shyr_____/" target="_blank">
+					<img src="img/IG.png" />
+				</a>
+			</logo2>
+
+			<logo3>
+				<a href="https://twitter.com/notforshareee" target="_blank">
+					<img src="img/TWITTER.png" />
+				</a>
+			</logo3>
+
+			<nav>	
+					<ul class="footer-menu">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+			</nav>
+
+			<h5 class="footer"> THE DEVELOPERS © 2024 </h5>
+
+		</row>
+	</last>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
